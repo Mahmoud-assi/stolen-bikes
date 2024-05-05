@@ -65,15 +65,8 @@ const TitleCountWrapper = styled.div`
 
 const Title = styled.h1`
 	font-weight: ${FONT_WEIGHT.semibold};
-	@media only screen and (max-width: ${568 - 0.02}px) {
-		font-size: ${FONT_SIZE.md};
-	}
-	@media only screen and (min-width: 568px) and (max-width: ${768 - 0.02}px) {
-		font-size: ${FONT_SIZE.xl};
-	}
-	@media only screen and (min-width: 768px) {
-		font-size: 1.5rem;
-	}
+	font-size: 1.5rem;
+
 	span {
 		color: ${({ theme }) => theme.colors.primary};
 	}
